@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2c9b-473f-e2ab-b8ba" name="Ironthane Crew" gameSystemId="sys-2d5a-bd31-a620-ae1e" gameSystemRevision="2.2" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Tactical Doctrine" hidden="false" id="6035-74d0-1275-dcc5">
+      <entryLinks>
+        <entryLink import="true" name="Tactical Doctrines" hidden="false" id="fbef-e1c6-9c0f-304c" type="selectionEntryGroup" targetId="29c6-ecaa-987e-53d7"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="56d2-8d14-702c-6a58" primary="true" name="Doctrine"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="b170-7160-4c2f-2c51"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Greyshield" hidden="false" id="ec93-c696-9aef-ec35" type="selectionEntry" targetId="9edb-9762-87c7-d739">
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="fe85-849c-939e-8c6f" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="561b-1226-467c-4ebd" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="8f2d-e450-b13d-78e3" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="189b-8a83-2209-2838" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="2dd9-50b7-ae25-a26c" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="1b33-6b73-0dba-fac4" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="14c0-8ac1-205b-c8c7" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="dba9-9003-7099-9d47" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thane" hidden="false" id="39ae-f449-2f4c-d157" type="selectionEntry" targetId="6781-4b95-b877-6dbe">
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="fc4f-4607-b3cc-c28c" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="90f8-4b1a-eeeb-11a0" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="ce29-2d35-8998-4661" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="087c-5553-f3ef-89b2" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="dde6-5eae-4e7d-d14e" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="514a-bb22-ba48-7a76" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="791f-f64d-e345-ae37" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="7225-00d7-9658-6bc3" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shortbeard" hidden="false" id="bb76-7abf-63b3-b5ae" type="selectionEntry" targetId="6856-a765-c4f4-1588">
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="13ab-e912-e3ca-81b5" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="7f3f-7749-367b-1177" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="acef-e2ff-5f4e-04fa" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="ca25-f988-ed78-d321" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="5ada-598c-f5e4-1df1" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="b204-2e88-666b-008e" id="d253-a2f6-7d5b-ff83" primary="true" name="Shortbeards"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="0aa4-f7e0-700d-1d6f" primary="false" name="Warriors"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clansman" hidden="false" id="b21b-e593-d5c4-12e5" type="selectionEntry" targetId="8251-4745-e1ea-7bd1">
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="a73d-9ab6-d405-df5c" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="c353-79db-d624-2da3" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="76df-727a-1d35-9d75" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="a216-c47c-1bbd-ad9a" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="0497-1301-f643-ad43" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="ec9b-d2b4-5e6a-fc6c" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="efbe-846c-0945-b9b1" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shieldthane" hidden="false" id="ad34-7f07-dd1b-bcce" type="selectionEntry" targetId="9984-8c93-cb78-dadd">
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="e673-a911-656f-264d" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="6fc6-2a5e-2e6c-7f92" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Weaponthane" hidden="false" id="7ead-a8de-733e-cc9f" type="selectionEntry" targetId="6136-a177-a9c0-3d5d">
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="97b0-2441-f224-8fca" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="9142-0a2a-7890-7c16" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="09ff-78fd-eb96-bcb1" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siegethane" hidden="false" id="2a12-4ee5-18d4-90c5" type="selectionEntry" targetId="624d-51ab-1a73-efed">
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="da92-a934-df81-1ede" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="e634-316a-809a-7183" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ostari Sellsword (R)" hidden="false" id="41c0-9a13-c244-b5ed" type="selectionEntry" targetId="da4c-7ba8-dada-2793">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="8ca2-3d98-1fcd-2fd4" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="44b1-7e61-e800-5333" primary="false" name="Warriors"/>
+        <categoryLink targetId="a214-914b-750c-0747" id="e0f8-1cb1-57de-400a" primary="false" name="Human"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="2955-e0e1-105e-7a45" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Torin the Blade (R)" hidden="false" id="8041-f794-f8e2-32f2" type="selectionEntry" targetId="6c1b-f34f-50c5-24fe">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="20fe-3d78-c447-6ec8" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="7d80-1f10-cf53-2bcd" primary="false" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="5e45-ddfd-ad19-e4d2" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="c138-b6ec-abdd-16f1" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="8af9-2008-43dd-1946" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clan Matriarch (R)" hidden="false" id="f218-1c17-32bf-d41c" type="selectionEntry" targetId="0b4e-96b0-ec7b-ec1c">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="2c19-848d-7f56-888a" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="0f88-e6e2-a761-d266" primary="false" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="2a5e-a74b-2b9b-2713" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="ad00-dde8-de15-feb0" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="2ad2-fc81-dbc1-07a5" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dohtriz Adventurer (R)" hidden="false" id="d135-852d-7e68-2f3c" type="selectionEntry" targetId="5668-596b-53c3-e698">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="552e-45b1-2a23-5ee8" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="ecec-b664-8138-0b6b" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="b1ff-a7e0-d9a1-e74b" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="6c1e-bcf0-f362-1db3" primary="false" name="Recruited"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="401c-634c-60ca-7f4e" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="da3e-219e-8ebb-f8cb" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="926a-9694-5a3b-4f47" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="b48c-1c91-e2f7-b3c0" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="9424-f7ba-6eeb-4780" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wandering Rhugnir (R)" hidden="false" id="a938-8880-9dd2-94b8" type="selectionEntry" targetId="f293-63cd-fbe2-87f5">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="263d-8319-f5b9-2a8f" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="87a5-014c-7a9e-77d7" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="6084-8243-d5b4-eec8" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="d1a5-6483-527e-b91c" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cringus (R)" hidden="false" id="a2b7-d7d2-271b-2962" type="selectionEntry" targetId="b957-5e7e-e87a-8a45">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="381a-479c-5a22-47ea" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="d635-24cc-4147-9a8f" primary="false" name="Warriors"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="8bf9-c6cb-91b1-5abf" primary="false" name="Heroes"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="5723-ba9c-7ef7-a549" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="26ae-ea10-b76d-0a9e" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Shield Wall" id="9230-7309-0841-316a" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>If three or more Ironthanes with shields are Adjacent to one another, they all gain the Immovable Trait, and can not be Driven Back.</description>
+    </rule>
+    <rule name="Rigid Discipline" id="48da-d699-56a4-6da2" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>Any Ironthane that can see the Crew Leader may take Nerve Tests with +1 bonus.</description>
+    </rule>
+    <rule name="Tactical Doctrine" id="2ffb-13bd-aeae-0b74" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>Before the game, you must select what Ironthane school your Leader was trained at. Choose one of the relevant doctrines, listed below. To use a doctrine, at the start of the Delving Phase prior to any Actions being taken, declare that you are using the doctrine, and apply the effect. Doctrines can only be used once per game.</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule name="Mountain Breaker Doctrine" id="d0de-87ae-16f0-7020" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>When this doctrine is used, every Ironthane in your Crew may Drive Back one Adjacent Enemy. This is performed exactly as in the Fight Phase, and the Ironthane Warriors may Press the Attack.</description>
+    </rule>
+    <rule name="Greyfrost School Doctrine" id="29a2-482b-390b-b01e" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>The player discards as many cards in their hand, (and their Sheathed card if they wish) and draws new cards.</description>
+    </rule>
+    <rule name="Obsidian School Doctrine" id="ef16-3446-3807-d6b9" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>When Test of Arms is used, all Ironthane Warriors in your Crew must try to Engage an Enemy if possible this Delving Phase. If they cannot, they may perform any other Action as usual. In the Fight Phase, any Contest your Warriors are involved in that ends in a draw will be won by the Ironthane Warrior, scoring one Hit.</description>
+    </rule>
+    <rule name="Stonefist School Doctrine" id="ed15-05ad-1dd0-65fc" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="102">
+      <description>All Ironthane Warriors will add 1 to their Movement Characteristic for this turn.</description>
+    </rule>
+    <rule name="Shieldthane Equipment" id="9a14-d894-ab28-94f5" hidden="false" page="103">
+      <description>A Shieldthane must be armed with a Shield. A Shieldthane carrying a Greatshield treats the Greatshield as thought it is not Cumbersome.</description>
+    </rule>
+    <rule name="♣ Support Fire" id="39f8-b804-d0e3-0367" hidden="false">
+      <description>♣ Support Fire Action - When using Support Fire, this Model may perform a Ranged Attack Action, ignoring any Friendly Ironthane Warriors blocking Line of Fire.</description>
+    </rule>
+  </sharedRules>
+  <forceEntries>
+    <forceEntry name="Ironthanes" id="4e56-3b6d-66fa-0e22" hidden="false" publicationId="a119-6a2e-0bfb-ae97">
+      <categoryLinks>
+        <categoryLink name="Doctrine" hidden="false" id="46a6-8701-c314-940f" targetId="5cb2-2c22-e1bc-edd6" type="category"/>
+        <categoryLink name="Heroes" hidden="false" id="1fd6-c937-3b5c-bc1b" targetId="9982-7329-2a8f-c5bb"/>
+        <categoryLink name="Warriors" hidden="false" id="e182-30c0-5514-eb11" targetId="42fd-25f3-b4d3-f05a"/>
+        <categoryLink name="Shortbeards" hidden="false" id="2049-f4ea-5777-9ba3" targetId="b204-2e88-666b-008e"/>
+        <categoryLink name="Hirelings" hidden="false" id="3ab6-bbd3-3e67-a3b5" targetId="28c7-1952-322e-1bff" type="category"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Greyfrost School Doctrine" hidden="false" id="4b14-8a1e-2bb3-99cb">
+      <infoLinks>
+        <infoLink name="Greyfrost School Doctrine" id="3294-5c02-d14d-635c" hidden="false" type="rule" targetId="29a2-482b-390b-b01e"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba1d-691d-c288-8e0b" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="92aa-1792-ba1e-9cb5" primary="true" name="Doctrine"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mountain Breaker Doctrine" hidden="false" id="a4af-ac95-7860-3b80">
+      <infoLinks>
+        <infoLink name="Mountain Breaker Doctrine" id="2355-fb16-5165-e821" hidden="false" type="rule" targetId="d0de-87ae-16f0-7020"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25a4-e3de-6cb6-d95f" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="4357-2fc8-5aba-1ba6" primary="true" name="Doctrine"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stonefist School Doctrine" hidden="false" id="5efe-60e0-fce9-ae7d">
+      <infoLinks>
+        <infoLink name="Stonefist School Doctrine" id="60d9-276c-be65-ddfd" hidden="false" type="rule" targetId="ed15-05ad-1dd0-65fc"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26d3-968d-d497-179b" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="eb64-8b2b-c447-add3" primary="true" name="Doctrine"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Obsidian School Doctrine" hidden="false" id="ec51-191f-a6a8-f2fa">
+      <infoLinks>
+        <infoLink name="Obsidian School Doctrine" id="16b1-3e82-a45b-63cb" hidden="false" type="rule" targetId="ef16-3446-3807-d6b9"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee13-1c02-3fd3-8450" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="51f8-c31f-e40b-1220" primary="true" name="Doctrine"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Weaponthane" hidden="false" id="6136-a177-a9c0-3d5d" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="14"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="11f4-ddae-d992-a9b8" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="ce79-7a5f-6e22-1a29" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="4bc3-bd83-123a-f77b" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7690-d4c4-6e13-2880" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="06b9-dcfc-d6da-cc55"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="35a0-512c-dc06-abe1" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="3"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="4058-85a8-28be-ae73" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="767a-f78b-6b28-db9f" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="c026-39ea-2154-b7cc" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="c269-07a6-dd69-3780" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="2"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Weaponthane" id="fc78-452f-0dbc-b848" hidden="false" type="profile" targetId="c4f2-5a68-04df-6b5e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shieldthane" hidden="false" id="9984-8c93-cb78-dadd" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="10"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="2364-57f6-6c3f-3ac9" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="45c2-ac18-4906-1b6b" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e981-df76-e3d1-daaf" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="cfc4-b6e0-c8e9-f7ed"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="6d98-10d8-8047-9882" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="3"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="5b11-e86e-8832-aa65" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="a047-ac22-73c0-79a0" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="f838-7863-7b4f-61d3" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="c8c8-5362-5273-7dbf" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="2"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Shieldthane" id="fd4d-f8b1-3d27-238a" hidden="false" type="profile" targetId="0746-0daa-68cd-a592"/>
+        <infoLink name="Shieldthane Equipment" id="2186-cf58-4b60-0579" hidden="false" type="rule" targetId="9a14-d894-ab28-94f5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Siegethane" hidden="false" id="624d-51ab-1a73-efed" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="10"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="12d7-5008-47d3-63cc" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="3e40-f9dc-ffef-ae45" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4f9d-fcbf-ae2b-eb6b" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="a281-3b82-f7cd-38ac"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="831b-1459-0ed2-1266" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="3"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="ba97-3bd8-a1e1-1168" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="6402-0607-babc-da2d" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="05ac-00bc-734e-aca3" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="6"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="f274-541c-285e-c7d7" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="2"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="6d4b-741a-80f9-ea80" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Siegethane" id="bfbd-7725-184f-f7e3" hidden="false" type="profile" targetId="df1f-0b26-8400-3455"/>
+        <infoLink name="♣ Support Fire" id="99cc-29bb-ef3b-53bd" hidden="false" type="rule" targetId="39f8-b804-d0e3-0367"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Tactical Doctrines" id="29c6-ecaa-987e-53d7" hidden="false">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a696-f82c-ea30-904f-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a696-f82c-ea30-904f-max" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Greyfrost School Doctrine" hidden="false" id="8368-e709-ec37-6408" type="selectionEntry" targetId="4b14-8a1e-2bb3-99cb" sortIndex="1">
+          <categoryLinks>
+            <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="a2a9-04b0-3ae0-c49c" primary="true" name="Doctrine"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Stonefist School Doctrine" hidden="false" id="9c18-d74c-229f-6e16" type="selectionEntry" targetId="5efe-60e0-fce9-ae7d" sortIndex="4">
+          <categoryLinks>
+            <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="0538-259e-0f2e-3100" primary="true" name="Doctrine"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Obsidian School Doctrine" hidden="false" id="ba2e-8bac-503b-57f8" type="selectionEntry" targetId="ec51-191f-a6a8-f2fa" sortIndex="3">
+          <categoryLinks>
+            <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="2a15-d12f-9dcc-5f94" primary="true" name="Doctrine"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Mountain Breaker Doctrine" hidden="false" id="0196-f107-b07d-6e30" type="selectionEntry" targetId="a4af-ac95-7860-3b80" sortIndex="2">
+          <categoryLinks>
+            <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="1d93-8d79-9aac-407c" primary="true" name="Doctrine"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="5cb2-2c22-e1bc-edd6" id="b8cc-255a-654f-6cfa" primary="true" name="Doctrine"/>
+      </categoryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile name="Siegethane" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="df1f-0b26-8400-3455" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/3</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">2</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">3</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shieldthane" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="0746-0daa-68cd-a592" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/2</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">2</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">4</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">1</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weaponthane" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="c4f2-5a68-04df-6b5e" publicationId="a119-6a2e-0bfb-ae97" page="103">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">6/3</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">3</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">4</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">1</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">1</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Doctrine" id="5cb2-2c22-e1bc-edd6" hidden="false"/>
+  </categoryEntries>
+</catalogue>

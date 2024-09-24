@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="027f-2059-c0de-4085" name="Copperbrow Crew" gameSystemId="sys-2d5a-bd31-a620-ae1e" gameSystemRevision="2.2" revision="3" battleScribeVersion="2.03" publicationId="a119-6a2e-0bfb-ae97" page="" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Copperbrow Crew" id="de36-ee90-289b-79f4" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Dwarf" hidden="false" id="5c4f-3c35-d2c3-1189" targetId="813e-704b-7698-40c6"/>
+        <categoryLink name="Heroes" hidden="false" id="0b31-efed-7812-afa9" targetId="9982-7329-2a8f-c5bb"/>
+        <categoryLink name="Warriors" hidden="false" id="43ee-f9f7-d6da-6241" targetId="42fd-25f3-b4d3-f05a"/>
+        <categoryLink name="Shortbeards" hidden="false" id="f25a-8be1-63ef-7a54" targetId="b204-2e88-666b-008e"/>
+        <categoryLink name="Engineer" hidden="false" id="e8ff-336e-da74-940a" targetId="986a-a43d-65b5-a558">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d4b3-2421-51d9-0839" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Knight of the Crown" hidden="false" id="77e7-75cf-4c73-db17" targetId="c9d6-06fc-7045-5b51">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="de36-ee90-289b-79f4" shared="true" id="52ec-1adb-cec0-4683" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="52ec-1adb-cec0-4683">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="de36-ee90-289b-79f4" childId="73ec-05e1-a8e3-6aae" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Clansman" hidden="false" id="4475-29ee-216a-bdce" targetId="73ec-05e1-a8e3-6aae"/>
+        <categoryLink name="Hirelings" hidden="false" id="dd30-f547-fd76-9c56" targetId="28c7-1952-322e-1bff" type="category"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Knights of the Crown" id="a70c-4ac5-f93a-27de" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Dwarf" hidden="false" id="1007-3bbc-58b5-91cd" targetId="813e-704b-7698-40c6"/>
+        <categoryLink name="Heroes" hidden="false" id="ee0b-3bbc-1ea4-8775" targetId="9982-7329-2a8f-c5bb"/>
+        <categoryLink name="KotC - Greyshield" hidden="false" id="7f51-36f9-e7e7-71ab" targetId="d41d-dafa-f7cc-3056">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="efac-5224-5e1a-35b8" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Warriors" hidden="false" id="1155-75a3-6e5f-2fd9" targetId="42fd-25f3-b4d3-f05a"/>
+        <categoryLink name="Knight of the Crown" hidden="false" id="fa2e-0230-9e7a-b449" targetId="c9d6-06fc-7045-5b51"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Lazuli Crest Company" id="bc3e-b9fb-edd4-80ed" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Dwarf" hidden="false" id="e97f-fd6c-5277-e8fc" targetId="813e-704b-7698-40c6"/>
+        <categoryLink name="Heroes" hidden="false" id="d98d-5356-9634-90f8" targetId="9982-7329-2a8f-c5bb"/>
+        <categoryLink name="Warriors" hidden="false" id="7c7f-c977-eeab-d71f" targetId="42fd-25f3-b4d3-f05a"/>
+        <categoryLink name="Engineer" hidden="false" id="c891-3076-9fc3-eb21" targetId="986a-a43d-65b5-a558">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="bc3e-b9fb-edd4-80ed" shared="true" id="b1ca-1c5d-3c50-54e6" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="b1ca-1c5d-3c50-54e6">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="bc3e-b9fb-edd4-80ed" childId="73ec-05e1-a8e3-6aae" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Clansman" hidden="false" id="b59c-22d8-82c3-dcb3" targetId="73ec-05e1-a8e3-6aae"/>
+        <categoryLink name="Hirelings" hidden="false" id="e69a-745a-ab9b-f51f" targetId="28c7-1952-322e-1bff" type="category"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedProfiles>
+    <profile name="Gunthane" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="03a9-30c7-a335-3d5e">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/3</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">3</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">2</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">1</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Knight of the Crown" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="5372-7b17-9baa-4b12">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/1</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">2</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">1</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">1</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Engineer" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="4243-7673-8fc1-3698">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">3/3</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">2</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">4</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <rules>
+    <rule name="Gold Fever" id="8c29-0369-39b6-f4ea" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="100">
+      <description>All members of a Copperbrow Crew have this Trait. If a Copperbrow Model (except Hirelings) is Adjacent to a Treasure Item, or Object and wants to move so that it is no longer Adjacent, it must take a Nerve Test. If the Test is failed, the Model Must remain Adjacent to the Treasure Item or Object. If the Test is a Success the Copperbrow may act normally. This rule also applies for Objectives such as piles of treasure.</description>
+    </rule>
+    <rule name="Knights of the Crown" id="145e-0bf4-07e4-54f7" hidden="false">
+      <description>A Copperbrow Crew can not take more Knights of the Crown than Clansmen. Alternatively the Crew can be made up of only Knights of the Crown, led by a Greyshield. These Crews may not include Shortbeards, Clansmen or Engineers.</description>
+    </rule>
+    <rule name="Lazuli Crest Company" id="d767-62a8-61a5-07f1" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="100">
+      <description>A Copperbrow Crew may be built as a Lazuli Mercenary Company. Lazuli companies can not take Knights of the Crown (the mercenary life is not their way), but they may include an Engineer for each Clansmen in the company.</description>
+    </rule>
+    <rule name="Flare Bolts" id="75af-319d-43e2-1c60" hidden="false">
+      <description>This is a special type of crossbow ammunition favoured by Copperbrow Engineers. Target any space in Line of Fire and conduct the Ranged Attack Action. Place a Torch marker on the space if it Hits, and Disperse it if it misses. If a Model is Hit, resolve as if Hit by a Thrown Torch. A Flare Bolt can be used once per game.</description>
+    </rule>
+  </rules>
+  <categoryEntries>
+    <categoryEntry name="Knight of the Crown" id="c9d6-06fc-7045-5b51" hidden="false" publicationId="a119-6a2e-0bfb-ae97" page="100"/>
+    <categoryEntry name="Engineer" id="986a-a43d-65b5-a558" hidden="false"/>
+    <categoryEntry name="Clansman" id="73ec-05e1-a8e3-6aae" hidden="false"/>
+    <categoryEntry name="KotC - Greyshield" id="d41d-dafa-f7cc-3056" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Flare Bolts" hidden="false" id="e786-4b9c-d7d0-2b31" publicationId="a119-6a2e-0bfb-ae97" page="100">
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="1"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Flare Bolts" id="8ab1-3e53-1b5c-111f" hidden="false" type="rule" targetId="75af-319d-43e2-1c60"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gunthane" hidden="false" id="f97f-3799-a7f0-ec95">
+      <infoLinks>
+        <infoLink name="Gunthane" id="d9e4-911e-d0fa-fc3b" hidden="false" type="profile" targetId="03a9-30c7-a335-3d5e"/>
+        <infoLink name="Command (Special Action)" id="4ac8-141c-1db8-8648" hidden="false" type="rule" targetId="558b-a79d-ca7f-6d4d"/>
+        <infoLink name="♠ Shoot to Wound" id="1a3b-a1f0-9f98-cc53" hidden="false" type="rule" targetId="9ad9-36e8-a164-2c60"/>
+        <infoLink name="Leader" id="f1fb-3574-4185-fac1" hidden="false" type="rule" targetId="6644-5666-18e9-47f4"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fb6d-cb0c-5f67-f274" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="956f-4b5e-b7c9-c9d9"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="ca8b-5233-6591-06f3" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="01d3-e102-6436-ec0b" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="5f60-1004-cf83-2852" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="12"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Knight of the Crown" hidden="false" id="d924-de03-ab22-02c3">
+      <infoLinks>
+        <infoLink name="Knight of the Crown" id="1e9f-0b98-e962-ecde" hidden="false" type="profile" targetId="5372-7b17-9baa-4b12"/>
+        <infoLink name="KotC Equipment" id="88bf-1737-f39b-dfa1" hidden="false" type="rule" targetId="1815-1595-dbb9-1baa"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="c9d6-06fc-7045-5b51" id="1ea7-b10c-23e9-9d10" primary="false" name="Knight of the Crown"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="cc18-bd7b-3a10-1f34" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="6181-0fc9-caa7-85a8" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="9"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="810c-00b7-186a-ae64"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Engineer" hidden="false" id="060d-3a16-7a97-a1c4">
+      <infoLinks>
+        <infoLink name="Engineer" id="c8cc-5fa3-6096-bf2a" hidden="false" type="profile" targetId="4243-7673-8fc1-3698"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="dc4c-0d24-c25b-0076" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="a8cb-bc52-91dd-0aeb" primary="false" name="Dwarf"/>
+        <categoryLink targetId="986a-a43d-65b5-a558" id="b16c-6535-6f60-479a" primary="false" name="Engineer"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="8"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="cc4e-7d97-42ae-2597"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Greyshield" hidden="false" id="ad8d-b63f-7db6-fe3f" type="selectionEntry" targetId="9edb-9762-87c7-d739">
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="4117-15db-587f-274e" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="3401-2d04-87a7-4d44" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="dcc7-42ae-eec0-1e49" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="cdcc-bc96-d4a5-7237" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Armour" hidden="false" id="3675-1c1e-e8e0-9d29" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="a50d-a002-82f8-fa1b" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="4"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="d516-b49f-9874-3798" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="dfe7-d585-a8e1-3c38" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="c398-a9c2-e97d-5c61" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="3d1e-3366-b5a1-a70d" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thane" hidden="false" id="d0d8-c14a-26df-5533" type="selectionEntry" targetId="6781-4b95-b877-6dbe">
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="9daa-184f-da38-b9b9" primary="true" name="Heroes"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="5c2e-3759-40a1-fb7a" primary="false" name="Dwarf"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="9d43-8299-7dbc-f57c" primary="false" name="Warriors"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="406d-d184-c5e8-1623" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="2a16-31a5-6b85-0365" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="71ee-1438-2de6-309d" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="840a-709c-3b80-7902" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="24dd-8cef-0ee6-2efa" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="1ea4-dfed-a97d-80d4" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="dd61-765f-67d0-8ecd" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="4"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Shortbeard" hidden="false" id="5fe8-cc97-9038-c746" type="selectionEntry" targetId="6856-a765-c4f4-1588">
+      <categoryLinks>
+        <categoryLink targetId="b204-2e88-666b-008e" id="a9cd-953e-0d9b-9bce" primary="true" name="Shortbeards"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="0301-6410-72d0-bb17" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="797d-a745-27d0-2b08" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="2519-5439-d9b4-03f8" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Armour" hidden="false" id="1aca-1a32-fc25-abc0" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="c1f6-8c5d-cf02-da65" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="4"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="80e6-d2d5-9aac-580f" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="f614-d791-f7c0-ad32" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="bb72-867b-318a-48a4" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="6f98-cfd4-7a9e-0b1d" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clansman" hidden="false" id="249d-eaf3-c868-8621" type="selectionEntry" targetId="8251-4745-e1ea-7bd1">
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="38f4-95bb-9720-954f" primary="true" name="Warriors"/>
+        <categoryLink targetId="73ec-05e1-a8e3-6aae" id="455e-5db2-374a-f81a" primary="false" name="Clansman"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="356b-96eb-1f25-2a7f" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="8ddf-bd52-9639-90fe" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Armour" hidden="false" id="5c54-ad2a-f66a-ac4f" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="4f23-d61b-d71c-5903" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="4"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="2ab7-dd0d-6140-51eb" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="a54c-b3a1-0751-2d21" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="a902-1f9e-4464-738b" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="1e40-a162-73f7-98ac" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Knight of the Crown" hidden="false" id="7452-82cd-c13b-6a4b" type="selectionEntry" targetId="d924-de03-ab22-02c3">
+      <categoryLinks>
+        <categoryLink targetId="c9d6-06fc-7045-5b51" id="fb0c-3578-644f-ea0b" primary="false" name="Knight of the Crown"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="b949-31e8-aa4a-75da" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="4625-43ae-e655-4d4a" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="0f55-b657-16cd-f080" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="4"/>
+        <entryLink import="true" name="Shield" hidden="false" id="d596-b990-a4c1-5d6e" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="3"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="940c-2029-1e41-9c8d" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="469e-c749-1c97-d40c" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="9c28-286a-7af4-f3a2" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="5a56-f983-e639-eadb" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="5"/>
+        <entryLink import="true" name="KotC Armour" hidden="false" id="7283-230d-fb26-b6ce" type="selectionEntryGroup" targetId="aa6a-c892-011b-3e09" sortIndex="2"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="bc3e-b9fb-edd4-80ed" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Engineer" hidden="false" id="6ba1-acd1-5eaa-496b" type="selectionEntry" targetId="060d-3a16-7a97-a1c4">
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="5567-4cf8-26a2-e917" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="255e-3923-70db-ce4c" primary="false" name="Dwarf"/>
+        <categoryLink targetId="986a-a43d-65b5-a558" id="548c-7d15-3e7f-f040" primary="false" name="Engineer"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="bda3-5774-9451-35de" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Armour" hidden="false" id="7917-76f0-4bf2-31db" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="1cec-239b-bbe6-ae13" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="5"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="acc4-93f9-4b36-edd7" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="6"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="a679-70d8-549f-4404" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="ae8a-91bb-3f7d-3292" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="7"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="b75d-9687-d7df-0706" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="8"/>
+        <entryLink import="true" name="Flare Bolts" hidden="false" id="f99d-de91-39be-cd17" type="selectionEntry" targetId="e786-4b9c-d7d0-2b31" sortIndex="4"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Gunthane" hidden="false" id="51c7-0c45-9771-cb9a" type="selectionEntry" targetId="f97f-3799-a7f0-ec95">
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="1919-9ae5-3969-f7bc" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="894c-9d77-290d-770d" primary="false" name="Dwarf"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="ba62-b126-21ec-e90c" primary="true" name="Heroes"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Armour" hidden="false" id="74cf-82f9-0c42-1554" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Blackpowder Weapons" hidden="false" id="27ea-76c2-3e16-6775" type="selectionEntryGroup" targetId="f7fe-0fb5-5157-0451" sortIndex="3"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="813b-7bfc-bfe9-5d95" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="4"/>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="6d11-78d8-4f5a-beef" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="b798-56b2-ebaa-e659" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="5"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="2af4-f422-c6bf-505e" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="6"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Clan Matriarch (R)" hidden="false" id="1ca1-692d-6c7b-0552" type="selectionEntry" targetId="0b4e-96b0-ec7b-ec1c">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="3766-434a-6046-6dc4" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="76e7-139a-6b0b-fdd6" primary="false" name="Heroes"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="0782-d473-1bf7-7c42" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="6ba6-8c75-d2c4-f685" primary="false" name="Recruited"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="7b9b-ad18-9c37-6ffc" primary="false" name="Warriors"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cringus (R)" hidden="false" id="eba5-d733-ee7f-a2a3" type="selectionEntry" targetId="b957-5e7e-e87a-8a45">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="51a7-43e8-56e9-bec5" primary="false" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="e75a-c679-5ed3-a9fb" primary="false" name="Warriors"/>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="12a4-b494-43b4-10a5" primary="true" name="Hirelings"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="811f-6854-4af9-060e" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="9106-b1f4-0e36-2ee1" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ostari Sellsword (R)" hidden="false" id="613b-1223-f866-4695" type="selectionEntry" targetId="da4c-7ba8-dada-2793">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="742d-6108-860f-57ef" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="f880-2a8d-f5b6-8704" primary="false" name="Warriors"/>
+        <categoryLink targetId="a214-914b-750c-0747" id="5686-e4bb-e672-694b" primary="false" name="Human"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="24ec-d081-27f8-d4b3" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dohtriz Adventurer (R)" hidden="false" id="47fc-254c-ee80-ace4" type="selectionEntry" targetId="5668-596b-53c3-e698">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="c112-f079-960d-0a5d" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Armour" hidden="false" id="319a-d1a2-b67c-66d0" type="selectionEntryGroup" targetId="1e94-63be-553a-44ea" sortIndex="2"/>
+        <entryLink import="true" name="Ranged Weapons" hidden="false" id="f8cf-3cab-bcae-7271" type="selectionEntryGroup" targetId="0a5a-f6cc-d4bc-f1ed" sortIndex="3"/>
+        <entryLink import="true" name="Black Powder Ranged Weapons" hidden="false" id="47a0-024a-80e5-e38d" type="selectionEntryGroup" targetId="8fde-5f43-c08b-0718" sortIndex="4"/>
+        <entryLink import="true" name="Bombs and Firebombs" hidden="false" id="d269-4e20-4d2a-093a" type="selectionEntryGroup" targetId="966d-be0f-dd76-7306" sortIndex="5"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="1832-e34d-a25a-f3ab" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="6"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="12ad-8599-de93-10df" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="7"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="a8f9-4d11-38cf-6f05" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="1f8e-d7cf-65dd-6a39" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="7ea1-5f96-cb8b-76e3" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="9148-bd0b-e78d-0827" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wandering Rhugnir (R)" hidden="false" id="d2f2-2140-18ab-f84f" type="selectionEntry" targetId="f293-63cd-fbe2-87f5">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="157f-a9ab-ecc8-0b58" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="3d81-f258-9f1d-b03f" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="fb03-80f4-45f7-d483" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="0876-637c-ae70-8c7c" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Torin the Blade (R)" hidden="false" id="eb67-5317-bd17-652d" type="selectionEntry" targetId="6c1b-f34f-50c5-24fe">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="a70c-4ac5-f93a-27de" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="c852-9757-20b5-17c0" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="d61a-81ac-fd8b-bd66" primary="false" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="5547-89ec-92ee-2362" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="2e1f-58f4-ee83-0a22" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="aebf-b3b4-5dd7-e002" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedRules>
+    <rule name="KotC Equipment" id="1815-1595-dbb9-1baa" hidden="false">
+      <description>A Knight of the Crown must be given either: Mail, Platemail, or Full Plate armour. Knights of the Crown may not use Bombs or Firebombs.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="KotC Armour" id="aa6a-c892-011b-3e09" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Breastplate" hidden="true" id="ef9a-d20c-dffd-9415" type="selectionEntry" targetId="fc68-8737-c94a-dcda" sortIndex="5">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d504-01f2-ab9a-0cf9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Full Plate" hidden="false" id="6d6b-aeea-1e19-c3cf" type="selectionEntry" targetId="838d-f361-f6db-03bd" sortIndex="3">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de4b-81c7-6305-07f8" shared="true" includeChildSelections="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d504-01f2-ab9a-0cf9" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Hard Coat" hidden="true" id="ddaf-adaa-34e7-361d" type="selectionEntry" targetId="dd01-7bd5-68d9-68e8" sortIndex="4">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="d504-01f2-ab9a-0cf9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Mail" hidden="false" id="d504-01f2-ab9a-0cf9" type="selectionEntry" targetId="bccf-0f14-8534-4c99" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6d6b-aeea-1e19-c3cf" shared="true" includeChildSelections="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de4b-81c7-6305-07f8" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Plate Mail" hidden="false" id="de4b-81c7-6305-07f8" type="selectionEntry" targetId="55eb-847b-07f7-bac0" sortIndex="2">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6d6b-aeea-1e19-c3cf" shared="true" includeChildSelections="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="d504-01f2-ab9a-0cf9" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0081-6771-564b-c6a3"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Blackpowder Weapons" id="f7fe-0fb5-5157-0451" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Pistol" hidden="false" id="5670-61d9-de90-4559" type="selectionEntry" targetId="6349-49e6-eeaf-5d2e" sortIndex="1"/>
+        <entryLink import="true" name="Firelock" hidden="false" id="3b84-7ac1-5414-8361" type="selectionEntry" targetId="d288-7589-e899-ddd7" sortIndex="2"/>
+        <entryLink import="true" name="Blunderbuss" hidden="true" id="d6b2-65b1-1a0d-6ac4" type="selectionEntry" targetId="203b-0ec8-eb8b-6e42" sortIndex="4">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5670-61d9-de90-4559" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Musketoon" hidden="true" id="333f-f356-318d-ffc5" type="selectionEntry" targetId="52c3-ca65-dd6a-96d0" sortIndex="3">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5670-61d9-de90-4559" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="3b84-7ac1-5414-8361" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d9b-80c3-d8be-84ac"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

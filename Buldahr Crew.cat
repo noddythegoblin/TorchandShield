@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="afe0-68d2-ad8b-90ec" name="Buldahr Crew" gameSystemId="sys-2d5a-bd31-a620-ae1e" gameSystemRevision="2.2" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Buldahr" id="d502-85b7-a0f5-a6e7" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Heroes" hidden="false" id="55a2-2e7a-1cbe-d401" targetId="9982-7329-2a8f-c5bb"/>
+        <categoryLink name="Warriors" hidden="false" id="c2b7-aa85-3293-9a5c" targetId="42fd-25f3-b4d3-f05a"/>
+        <categoryLink name="Shortbeards" hidden="false" id="b810-20bb-ab6f-7f46" targetId="b204-2e88-666b-008e"/>
+        <categoryLink name="Hirelings" hidden="false" id="f580-3ac0-9b33-2776" targetId="28c7-1952-322e-1bff" type="category"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedProfiles>
+    <profile name="Bloodthane" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="a4da-e682-736d-d6e7" publicationId="a119-6a2e-0bfb-ae97" page="105">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">5/2</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">3</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">4</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">2</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">1</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">**</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Berserker" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="5e2c-946d-95da-7f07" publicationId="a119-6a2e-0bfb-ae97" page="105">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/2</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">3</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">3</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">2</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hurler" typeId="0264-7327-a54a-c6c7" typeName="Model" hidden="false" id="78cf-79cd-e69e-cb61">
+      <characteristics>
+        <characteristic name="Mv" typeId="b111-de3e-104b-57b2">4</characteristic>
+        <characteristic name="Ms" typeId="f17c-b644-1534-3e9d">4/2</characteristic>
+        <characteristic name="S" typeId="0e8c-1de0-8dd8-512a">5</characteristic>
+        <characteristic name="R" typeId="1381-4c5e-682c-5ef5">2</characteristic>
+        <characteristic name="A" typeId="fcf2-c43b-34a1-ecc4">3</characteristic>
+        <characteristic name="N" typeId="67f5-321b-95d3-1201">3</characteristic>
+        <characteristic name="D" typeId="2772-39c7-9801-225b">3</characteristic>
+        <characteristic name="C" typeId="4d59-0b5d-8f79-a77c">2</characteristic>
+        <characteristic name="V" typeId="356d-fc1d-8209-8448">-</characteristic>
+        <characteristic name="F" typeId="e47d-1ca4-bd7c-ad80">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <infoLinks>
+    <infoLink name="Hurl Weapon" id="0fd2-c92b-654c-9bc5" hidden="false" type="rule" targetId="a078-fa24-7c0c-2c16"/>
+    <infoLink name="By Lorgrim Stand Aside!" id="1cf7-fd9a-a29d-4811" hidden="false" type="rule" targetId="99d6-3bf9-bdd3-32d9"/>
+    <infoLink name="Blood Runed" id="9691-2d0a-a71c-e13c" hidden="false" type="rule" targetId="e792-cab1-48a1-6385"/>
+    <infoLink name="Wrestle" id="ac25-c5ba-4a6e-0d11" hidden="false" type="rule" targetId="2f7d-ccd9-7eb2-ef98"/>
+  </infoLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Bloodthane" hidden="false" id="1041-2b54-f0a8-584e">
+      <infoLinks>
+        <infoLink name="Bloodthane" id="6304-8c68-f95b-4519" hidden="false" type="profile" targetId="a4da-e682-736d-d6e7"/>
+        <infoLink name="Leader" id="d083-cbc2-bf63-25c3" hidden="false" type="rule" targetId="6644-5666-18e9-47f4"/>
+        <infoLink name="♦ Berserk" id="04cb-9351-2a0a-8c9a" hidden="false" type="rule" targetId="df92-9d06-c31a-aeb8"/>
+        <infoLink name="Blood Runes" id="b08c-4b57-813a-960a" hidden="false" type="rule" targetId="2c3f-499f-7303-c2da"/>
+        <infoLink name="Fearless" id="c3b6-e795-8db6-f6a4" hidden="false" type="rule" targetId="a184-8c18-c345-d04f"/>
+        <infoLink name="Loner" id="f497-9cdf-2ce9-d02d" hidden="false" type="rule" targetId="6fa2-3ca4-4a23-4b2b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="bd40-3499-39c1-f51d" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="6943-8185-d6fd-0326" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="3890-94de-5992-79b6" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="14"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e4f4-55bd-e7a6-59f2" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="3d19-e4b6-eba5-ad5b"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="d213-f410-2cbf-db0e" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="3a1e-daf9-27c1-a0f6" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="0a39-14fb-95e3-25c2" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="6908-b0e6-5cac-d623" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+        <entryLink import="true" name="Shield" hidden="false" id="5a17-40e7-a1c4-b8cc" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Berserker" hidden="false" id="bf1e-c336-f5d0-4df9">
+      <infoLinks>
+        <infoLink name="Berserker" id="5cc1-c975-7631-cdd1" hidden="false" type="profile" targetId="5e2c-946d-95da-7f07"/>
+        <infoLink name="♦ Berserk" id="43e0-ef1c-f268-4651" hidden="false" type="rule" targetId="df92-9d06-c31a-aeb8"/>
+        <infoLink name="Fearless" id="d97b-7981-b7fd-2a53" hidden="false" type="rule" targetId="a184-8c18-c345-d04f"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="08b6-f435-dfe4-7ca0" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="d037-74a4-c74b-6ca0" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="8"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="3" field="c624-0287-a032-da24" scope="self" shared="true" id="20cc-5833-9143-ef8c"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="e3aa-e3ad-fec5-00a2" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="f7a6-6d7c-bd6d-fc13" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="acb9-3e5e-7af6-5133" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="c0b8-04c8-d708-fae6" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+        <entryLink import="true" name="Shield" hidden="false" id="e3bb-202c-3fc6-fbeb" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hurler" hidden="false" id="653f-4c04-80ca-967d">
+      <infoLinks>
+        <infoLink name="Bloodthane" id="6f8d-f039-c8d2-484e" hidden="false" type="profile" targetId="a4da-e682-736d-d6e7"/>
+        <infoLink name="Hurling Spears" id="904e-4447-50c7-10e0" hidden="false" type="rule" targetId="6ee5-a543-5a78-5828"/>
+        <infoLink name="Scout" id="1cfd-40ef-e730-c35c" hidden="false" type="rule" targetId="c001-7058-e33d-0e4d"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="7293-d134-66f9-ba44" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="73d0-0d86-9f20-36d3" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <costs>
+        <cost name="GC" typeId="GoldCrowns" value="12"/>
+        <cost name="Hands" typeId="c624-0287-a032-da24" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f644-1e39-a99d-beb6" includeChildSelections="true"/>
+        <constraint type="max" value="0" field="c624-0287-a032-da24" scope="parent" shared="true" id="abf6-c674-59fa-754e"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="54cb-2378-7dd1-c9b6" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="1"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="e3a4-c015-ef89-c228" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Shortbeard" hidden="false" id="a788-45a5-a774-db58" type="selectionEntry" targetId="6856-a765-c4f4-1588">
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="56bb-8a48-f508-3d6c" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="9dba-6fbe-32cf-9aef" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="043d-5203-68a1-93cc" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Shield" hidden="false" id="e25d-07ae-ff34-ad71" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="3d2e-8909-0082-ef07" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="463f-0045-1fd8-98b7" primary="false" name="Warriors"/>
+        <categoryLink targetId="b204-2e88-666b-008e" id="a205-65ff-874a-92cc" primary="true" name="Shortbeards"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="fb31-8582-bcf8-f538" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clansman" hidden="false" id="fcd1-c0f6-ce71-bfb2" type="selectionEntry" targetId="8251-4745-e1ea-7bd1">
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="85ae-6556-5f91-2fcf" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="c609-0c62-50ca-c2cb" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="7aae-cd20-8815-e415" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Shield" hidden="false" id="c6dc-7a36-9437-a351" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="52d9-b552-8f34-e879" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="ea10-8cac-2b81-d784" primary="true" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="24da-92e8-9124-42ee" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thane" hidden="false" id="4c9e-9a21-68e2-215e" type="selectionEntry" targetId="6781-4b95-b877-6dbe">
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="626d-7d75-9bde-8781" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="fa9c-8a45-6a1b-0490" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="60ca-f3e7-395d-c38e" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Shield" hidden="false" id="2cea-b368-fb32-2f5d" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="9e91-80aa-5a3c-475c" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="add3-2e38-61e4-3866" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="68b8-e23c-2f28-e39b" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="4e28-67d6-f078-6a60" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greyshield" hidden="false" id="b3b2-b6c7-28a6-fc98" type="selectionEntry" targetId="9edb-9762-87c7-d739">
+      <categoryLinks>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="1a2a-c9b4-5dc5-39ca" primary="true" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="6750-6105-d656-1ed2" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="6758-a59e-7ea4-ad85" primary="false" name="Dwarf"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="1175-823c-e55d-edfa" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="b313-970d-8807-87bd" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="9dbb-06c1-640f-5282" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+        <entryLink import="true" name="Shield" hidden="false" id="2405-2b65-7a23-d5b3" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="aa71-1ee3-6e53-7bf8" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clan Matriarch (R)" hidden="false" id="c44e-6f66-f979-ed4c" type="selectionEntry" targetId="0b4e-96b0-ec7b-ec1c">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="bd21-5d22-ec6b-616b" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="0e41-319b-ba6f-9168" primary="false" name="Warriors"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="f6de-54c5-b69c-17f9" primary="false" name="Heroes"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="2991-154a-198d-e66e" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="0c00-bbe8-6aea-bd13" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ostari Sellsword (R)" hidden="false" id="e904-1bbf-0ab3-6201" type="selectionEntry" targetId="da4c-7ba8-dada-2793">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="64a3-f957-6665-f324" primary="true" name="Hirelings"/>
+        <categoryLink targetId="a214-914b-750c-0747" id="8e5a-8454-556a-ab0f" primary="false" name="Human"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="950d-0981-ca47-8d12" primary="false" name="Recruited"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="8aa6-5fea-dc04-4e1f" primary="false" name="Warriors"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cringus (R)" hidden="false" id="6141-c71b-0b59-5d0d" type="selectionEntry" targetId="b957-5e7e-e87a-8a45">
+      <categoryLinks>
+        <categoryLink targetId="813e-704b-7698-40c6" id="00d8-a8e9-e288-f119" primary="false" name="Dwarf"/>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="2648-b3aa-9b02-2f33" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="251f-d55e-56c1-50f6" primary="false" name="Heroes"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="28f5-bea9-b210-8584" primary="false" name="Recruited"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="91f0-8d0d-5e3a-e5fc" primary="false" name="Warriors"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Torin the Blade (R)" hidden="false" id="7d70-af3d-6542-932e" type="selectionEntry" targetId="6c1b-f34f-50c5-24fe">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="f849-cb1e-c818-057a" primary="true" name="Hirelings"/>
+        <categoryLink targetId="9982-7329-2a8f-c5bb" id="e5da-bf05-0e27-4351" primary="false" name="Heroes"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="0e62-02c8-b350-e87e" primary="false" name="Warriors"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="eab1-be07-0003-6164" primary="false" name="Recruited"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="d86a-7b0f-642e-cc82" primary="false" name="Dwarf"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dohtriz Adventurer (R)" hidden="false" id="0e0e-41e9-cad1-24a5" type="selectionEntry" targetId="5668-596b-53c3-e698">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="094b-9172-3eda-899e" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="821a-0219-e3df-23ed" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="56b2-5f4d-9355-b93b" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="7557-667c-0c70-ee52" primary="false" name="Recruited"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Close Combat Weapons" hidden="false" id="b9ec-3eee-1600-a896" type="selectionEntryGroup" targetId="4986-9ea4-9d8d-c329" sortIndex="1"/>
+        <entryLink import="true" name="Shield" hidden="false" id="4fd8-439e-6d97-f212" type="selectionEntryGroup" targetId="773a-2cbf-92ce-1b16" sortIndex="2"/>
+        <entryLink import="true" name="Thrown Weapons" hidden="false" id="db7e-4700-1cc3-c5b9" type="selectionEntryGroup" targetId="46b8-ce43-6370-3568" sortIndex="3"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="117d-b02c-bf25-e458" type="selectionEntryGroup" targetId="ee4b-9381-6e90-1fbc" sortIndex="4"/>
+        <entryLink import="true" name="Master Brews" hidden="false" id="5548-0be9-4680-7532" type="selectionEntryGroup" targetId="0735-d667-18fa-2b30" sortIndex="5"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wandering Rhugnir (R)" hidden="false" id="1ea2-f831-b2b3-31a5" type="selectionEntry" targetId="f293-63cd-fbe2-87f5">
+      <categoryLinks>
+        <categoryLink targetId="28c7-1952-322e-1bff" id="c52c-2840-27da-a412" primary="true" name="Hirelings"/>
+        <categoryLink targetId="42fd-25f3-b4d3-f05a" id="8408-e8b7-3555-e86b" primary="false" name="Warriors"/>
+        <categoryLink targetId="813e-704b-7698-40c6" id="7a82-8da1-cc82-3b7c" primary="false" name="Dwarf"/>
+        <categoryLink targetId="1a8b-927f-181f-231f" id="8a64-4838-fd1e-c67f" primary="false" name="Recruited"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
